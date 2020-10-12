@@ -27,14 +27,25 @@ body {
   /* width: 0px; */
 }
 
+.card {
+  border: 0;
+}
+
 .category {
   bottom: 0;
   left: 0;
 }
 
+.sticky-top {
+  top: 0;
+  z-index: 999;
+  position: sticky;
+  position: -webkit-sticky;
+}
+
 .versus {
-  top: 130px;
-  left: 165px;
+  top: 145px;
+  left: 185px;
 }
 
 .sub-after::after {
