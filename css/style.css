@@ -32,6 +32,11 @@ body {
   left: 0;
 }
 
+.versus {
+  top: 25%;
+  left: 45%;
+}
+
 .sub-after::after {
   content: "";
   display: inline-block;
