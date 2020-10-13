@@ -1,7 +1,7 @@
 body {
   background-color: #f4f5f6;
   color: #333;
-  font-size: 13px;
+  /* font-size: 13px; */
   line-height: 18px;
   font-family: Arial, Helvetica, sans-serif;
   overflow-x: hidden;
@@ -36,9 +36,35 @@ a {
   left: 0;
 }
 
-.versus {
-  top: 130px;
-  left: 165px;
+.vs-text {
+  margin: 0 auto;
+  width: 32px;
+  height: 32px;
+  background: black;
+  color: #f4f5f6;
+  font-family: "Roboto Condensed", sans-serif;
+  display: grid;
+  place-items: center;
+  z-index: 5;
+  position: relative;
+}
+
+.the-debate .versus::after {
+  top: 0.8rem;
+}
+
+.the-debate .versus::before {
+  top: 1rem;
+}
+
+.versus::before,
+.versus::after {
+  position: absolute;
+  display: block;
+  width: 100%;
+  content: "";
+  height: 1px;
+  background: #9a9a9a;
 }
 
 .sub-after::after {
@@ -76,7 +102,6 @@ footer svg {
 }
 
 @media (min-width: 768px) {
-  
 }
 
 @media (min-width: 991px) {
