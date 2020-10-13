@@ -26,14 +26,22 @@ a {
   margin-right: 10px;
 }
 
+.image {
+  width: 200px;
+}
+
 .sub {
   font-size: small;
-  /* width: 0px; */
 }
 
 .category {
   bottom: 0;
   left: 0;
+}
+
+.news-img {
+  background-size: cover;
+  height: 18rem;
 }
 
 .vs-text {
