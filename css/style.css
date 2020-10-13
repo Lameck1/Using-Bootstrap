@@ -7,6 +7,10 @@ body {
   overflow-x: hidden;
 }
 
+a {
+  text-decoration-color: #f72210;
+}
+
 .bg-header {
   background: #f72210;
 }
