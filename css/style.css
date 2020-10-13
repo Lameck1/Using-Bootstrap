@@ -27,33 +27,22 @@ body {
   /* width: 0px; */
 }
 
-.card {
-  border: 0;
-}
-
 .category {
   bottom: 0;
   left: 0;
 }
 
-.sticky-top {
-  top: 0;
-  z-index: 999;
-  position: sticky;
-  position: -webkit-sticky;
-}
-
 .versus {
-  top: 145px;
-  left: 185px;
+  top: 130px;
+  left: 165px;
 }
 
 .sub-after::after {
   content: "";
   display: inline-block;
   margin-left: 3px;
-  width: 6px;
-  height: 6px;
+  width: 10px;
+  height: 10px;
   transform: rotate(45deg);
   border-top-width: 1px;
   border-top-style: solid;
@@ -77,25 +66,13 @@ footer svg {
   border-right-width: 3px;
 }
 
-.magazine .wrap .category {
-  display: block;
-  font: bold 16px/33px "Roboto Condensed", sans-serif;
-  color: #f72210;
-  text-transform: uppercase;
-  padding: 0 10px;
-  background-color: rgba(255, 255, 255, 0.9);
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  z-index: 1;
-}
-
 .img-overlay {
   top: 15px;
   left: 80px;
 }
 
 @media (min-width: 768px) {
+  
 }
 
 @media (min-width: 991px) {
@@ -117,5 +94,9 @@ footer svg {
   body {
     width: 100%;
     margin: 0 auto;
+  }
+
+  .magazine .image {
+    height: 290px;
   }
 }
