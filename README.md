@@ -54,7 +54,7 @@ yarn install
 
 - GitHub: [@githubhandle](https://github.com/Div685)
 - Twitter: [@twitterhandle](https://www.linkedin.com/in/divyesh-patel-2a15a6107)
-- LinkedIn: [LinkedIn](<(https://www.linkedin.com/in/divyesh-patel-2a15a6107)>)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/divyesh-patel-2a15a6107)
 
 ## 🤝 Contributing
 
