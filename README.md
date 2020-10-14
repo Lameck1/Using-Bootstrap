@@ -14,7 +14,9 @@ The project has involved application of bootstrap classes to html element to ach
 
 ## Built With
 
-- HTML, CSS
+- HTML
+- CSS
+- Bootstrap 4
 - Fontawesome
 
 ## Live Demo
