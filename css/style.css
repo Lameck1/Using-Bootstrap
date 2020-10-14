@@ -1,7 +1,6 @@
 body {
   background-color: #f4f5f6;
   color: #333;
-  /* font-size: 13px; */
   line-height: 18px;
   font-family: Arial, Helvetica, sans-serif;
   overflow-x: hidden;
@@ -21,8 +20,7 @@ a {
   display: block;
   width: 29px;
   height: 28px;
-  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain
-    no-repeat #f72210;
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
   margin-right: 10px;
 }
 
@@ -57,14 +55,6 @@ a {
   position: relative;
 }
 
-.the-debate .versus::after {
-  top: 0.8rem;
-}
-
-.the-debate .versus::before {
-  top: 1rem;
-}
-
 .versus::before,
 .versus::after {
   position: absolute;
@@ -75,6 +65,14 @@ a {
   background: #9a9a9a;
 }
 
+.the-debate .versus::after {
+  top: 0.8rem;
+}
+
+.the-debate .versus::before {
+  top: 1rem;
+}
+
 .sub-after::after {
   content: "";
   display: inline-block;
@@ -82,26 +80,18 @@ a {
   width: 10px;
   height: 10px;
   transform: rotate(45deg);
-  border-top-width: 1px;
+  border-top-width: 3px;
   border-top-style: solid;
-  border-right-width: 1px;
+  border-right-width: 3px;
   border-right-style: solid;
-}
-
-.header-middle svg {
-  fill: white;
 }
 
 footer svg {
   fill: #f72210;
 }
 
-.sub-after::after {
-  margin-left: 5px;
-  width: 8px;
-  height: 8px;
-  border-top-width: 3px;
-  border-right-width: 3px;
+.header-middle svg {
+  fill: white;
 }
 
 .img-overlay {
@@ -109,8 +99,8 @@ footer svg {
   left: 80px;
 }
 
-@media (min-width: 768px) {
-}
+/* @media (min-width: 768px) {
+} */
 
 @media (min-width: 991px) {
   .header-bottom::before {
