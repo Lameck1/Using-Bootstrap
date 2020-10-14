@@ -19,7 +19,7 @@ The project has involved application of bootstrap classes to html element to ach
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://raw.githack.com/Lameck1/Using-Bootstrap/feature-newsweek-home/index.html)
 
 ## Getting Started
 
