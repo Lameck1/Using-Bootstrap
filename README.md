@@ -4,7 +4,7 @@
 
 Building a replica of the news site Newsweek.com using the Bootstrap framework.
 
-![screenshot](./img/screencapture.png)
+![screenshot](./assets/img/screencapture.png)
 
 ## About The Project
 
