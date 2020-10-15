@@ -1,0 +1,160 @@
+.bg-header {
+  background: #f72210;
+}
+
+.title .icon-n {
+  -webkit-flex: none;
+  flex: none;
+  display: block;
+  width: 29px;
+  height: 28px;
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+  margin-right: 10px;
+}
+
+.image-side {
+  width: 200px;
+}
+
+.sub {
+  font-size: small;
+}
+
+.category {
+  bottom: 0;
+  left: 0;
+}
+
+.vs-text {
+  margin: 0 auto;
+  width: 32px;
+  height: 32px;
+  background: black;
+  color: #f4f5f6;
+  font-family: "Roboto Condensed", sans-serif;
+  display: grid;
+  place-items: center;
+  z-index: 5;
+  position: relative;
+}
+
+.image-first {
+  max-height: 550px;
+}
+
+.versus::before,
+.versus::after {
+  position: absolute;
+  display: block;
+  width: 100%;
+  content: "";
+  height: 1px;
+  background: #9a9a9a;
+}
+
+.the-debate .versus::after {
+  top: 0.8rem;
+}
+
+.the-debate .versus::before {
+  top: 1rem;
+}
+
+.sub-after::after {
+  content: "";
+  display: inline-block;
+  margin-left: 3px;
+  width: 10px;
+  height: 10px;
+  transform: rotate(45deg);
+  border-top-width: 3px;
+  border-top-style: solid;
+  border-right-width: 3px;
+  border-right-style: solid;
+}
+
+footer svg {
+  fill: #f72210;
+}
+
+.header-middle svg {
+  fill: white;
+}
+
+.main-class {
+  margin-top: 0;
+}
+
+.img-overlay {
+  top: 15px;
+  left: 80px;
+}
+
+.footer-links-menu a {
+  border-right: none;
+  font-size: 14px;
+}
+
+.newslater-img {
+  height: 150px;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1200;
+}
+
+@media (min-width: 768px) {
+  .footer-links-menu ul li a {
+    border-right: 1px solid #ccc;
+  }
+
+  .newslater-img {
+    height: 100%;
+  }
+
+  .image-first {
+    max-height: 350px;
+  }
+
+  .header {
+    position: sticky;
+    top: 0;
+    z-index: 1200;
+  }
+}
+
+@media only screen and (min-width: 991px) {
+  .header-bottom::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: "";
+    display: block;
+    width: 80px;
+    background-color: #f72210;
+    border-left: 12px solid white;
+    border-top: 13px solid #f72210;
+    z-index: 2;
+  }
+
+  .header {
+    position: inherit;
+  }
+
+  .newslater-img {
+    height: 100%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  body {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .magazine .image {
+    height: 290px;
+  }
+}
