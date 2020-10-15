@@ -8,7 +8,8 @@
   display: block;
   width: 29px;
   height: 28px;
-  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain
+    no-repeat #f72210;
   margin-right: 10px;
 }
 
@@ -77,6 +78,10 @@ footer svg {
   fill: white;
 }
 
+.main-class {
+  margin-top: 0;
+}
+
 .img-overlay {
   top: 15px;
   left: 80px;
@@ -115,9 +120,9 @@ footer svg {
     z-index: 2;
   }
 
-  .main-class {
+  /* .main-class {
     margin-top: 12rem;
-  }
+  } */
 
   .newslater-img {
     height: 100%;
