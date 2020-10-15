@@ -95,6 +95,10 @@ footer svg {
   .footer-links-menu ul li a {
     border-right: 1px solid #ccc;
   }
+
+  .newslater-img {
+    height: 100%;
+  }
 }
 
 @media only screen and (min-width: 991px) {
@@ -118,11 +122,6 @@ footer svg {
   .newslater-img {
     height: 100%;
   }
-
-  /* .cover-img {
-    max-height: 350px;
-    max-width: 300px;
-  } */
 }
 
 @media only screen and (min-width: 1024px) {

@@ -24,13 +24,20 @@
 </head>
 
 <body class="bg-light">
-  <header class="fixed-top">
+  <header class="fixed-top ">
     <div class="col-lg-12">
-      <div class="row d-flex align-items-center justify-content-between bg-header p-2">
+      <div class="row d-flex align-items-end justify-content-between bg-header p-2">
 
-        <p id="date" class="text-white d-none d-lg-block pl-2">Fri, Oct 09, 2020</p>
+        <div id="date" class="ml-4 mt-3 d-none d-lg-block">
+          <a class="d-flex align-items-center text-white text-decoration-none" href="#">
+            <span><i class="fa fa-water mr-2 text-white"></i></span>
+            <strong>23<sup class="fs-14">o</sup> Nairobi, KE</strong>           
+          </a>
+          <p class="text-white d-none d-lg-block pl-2">Fri, Oct 09, 2020</p>
+        </div>
+        
 
-        <div class="col-4 header-middle py-3" id="logo">
+        <div class="col-3 header-middle " id="logo">
           <a href="#" class="m-0 p-0">
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
               y="0px" viewBox="0 0 395.6 60" xml:space="preserve">
@@ -53,78 +60,80 @@
         </div>
       </div>
 
-      <nav id="navbar" class="header-bottom row position-relative bg-white px-0 d-none d-lg-block">
-        <div class="d-flex border-bottom">
-          <ul class="nav pt-2 pl-4">
-            <li class="nav-item">
-              <a class="nav-link pl-0 text-body font-weight-bolder h6 border-right py-1" href="#">U.S.</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-body font-weight-bolder h6 border-right py-1" href="#">World</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-body font-weight-bolder h6 border-right py-1" href="#">Business</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-body font-weight-bolder h6 border-right py-1" href="#">Tech &amp;
-                Science</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-body font-weight-bolder h6 border-right py-1" href="#">Culture</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-body font-weight-bolder h6 border-right py-1" href="#">Newsgeek</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-body font-weight-bolder h6 border-right py-1" href="#">Sports</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-body font-weight-bolder h6 border-right py-1" href="#">Health</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-body font-weight-bolder h6 border-right py-1" href="#">The Debate</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-body font-weight-bolder h6 border-right py-1" href="#">Vantage</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-body font-weight-bolder h6 py-1" href="#">Weather</a>
-            </li>
-          </ul>
-          <form action="#" method="post"
-            class="col-1 d-inline-flex align-items-center justify-content-end px-2 position-relative">
-            <input type="text" placeholder="Search" class="form-control border-0 p-0" />
-            <i class="fa fa-search fa-1x position-absolute mr-xl-2"></i>
-          </form>
-        </div>
-        <div class="trending-topics-wrapper container-fluid border-bottom pl-2">
-          <ul class="nav trending-topics list-unstyled d-flex p-0 m-0">
-            <li><strong class="nav-link text-body font-weight-bolder h6">Trending</strong></li>
-            <li class="nav-item">
-              <a class="nav-link text-body font-weight-bolder h6" href="#">Donald Trump</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-body font-weight-bolder h6" href="#">Joe Biden</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-body font-weight-bolder h6" href="#">Stimulus Package</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-body font-weight-bolder h6" href="#">Coronavirus</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-body font-weight-bolder h6" href="#">2020 Election</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+      <div id="navbar">
+        <nav class="header-bottom row position-relative bg-white px-0 d-none d-lg-block">
+          <div class="d-flex border-bottom">
+            <ul class="nav pt-2 pl-4">
+              <li class="nav-item">
+                <a class="nav-link pl-0 text-body font-weight-bolder h6 border-right py-1" href="#">U.S.</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-body font-weight-bolder h6 border-right py-1" href="#">World</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-body font-weight-bolder h6 border-right py-1" href="#">Business</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-body font-weight-bolder h6 border-right py-1" href="#">Tech &amp;
+                  Science</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-body font-weight-bolder h6 border-right py-1" href="#">Culture</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-body font-weight-bolder h6 border-right py-1" href="#">Newsgeek</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-body font-weight-bolder h6 border-right py-1" href="#">Sports</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-body font-weight-bolder h6 border-right py-1" href="#">Health</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-body font-weight-bolder h6 border-right py-1" href="#">The Debate</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-body font-weight-bolder h6 border-right py-1" href="#">Vantage</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-body font-weight-bolder h6 py-1" href="#">Weather</a>
+              </li>
+            </ul>
+            <form action="#" method="post"
+              class="col-1 d-inline-flex align-items-center justify-content-end px-2 position-relative">
+              <input type="text" placeholder="Search" class="form-control border-0 p-0" />
+              <i class="fa fa-search fa-1x position-absolute mr-xl-2"></i>
+            </form>
+          </div>
+          <div class="trending-topics-wrapper container-fluid border-bottom pl-2">
+            <ul class="nav trending-topics list-unstyled d-flex p-0 m-0">
+              <li><strong class="nav-link text-body font-weight-bolder h6">Trending</strong></li>
+              <li class="nav-item">
+                <a class="nav-link text-body font-weight-bolder h6" href="#">Donald Trump</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-body font-weight-bolder h6" href="#">Joe Biden</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-body font-weight-bolder h6" href="#">Stimulus Package</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-body font-weight-bolder h6" href="#">Coronavirus</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-body font-weight-bolder h6" href="#">2020 Election</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
       
     </div>
   </header>
 
   <!-- Main -->
 
-  <main class="main-class container-fluid col-12 bg-white p-3">
+  <main class="main-class container-fluid col-12 bg-white px-3">
 
 
 
@@ -1061,10 +1070,10 @@
 
         <div class="d-md-flex flex-md-column align-items-md-center">
 
-          <div class="sponsor card rounded-0 my-3 col-md-4 col-lg-12">
+          <div class="sponsor card rounded-0 my-3 col-md-6 col-lg-12 p-0">
             <div class="wrap position-relative">
               <div
-                class="category position-absolute text-primary font-weight-bolder text-uppercase h5 p-1 m-0 bg-light">
+                class="category position-absolute text-primary font-weight-bolder text-uppercase h5 m-0 bg-light">
                 Rankings</div>
               <a href="#">
                 <img class="card-img-top rounded-0"
@@ -1084,7 +1093,7 @@
             </div>
           </div>
 
-          <div class="card rounded-0 d-flex flex-column bg-light col-md-3 col-lg-10">
+          <div class="card rounded-0 d-flex flex-column bg-light col-md-4 col-lg-10">
             <div class="card-body">
               <div class="d-flex align-items-center title">
                 <span class="icon-n"></span>
@@ -1102,7 +1111,7 @@
 
 
 
-          <div class="sponsor card rounded-0 my-3 col-md-4 col-lg-12">
+          <div class="sponsor card rounded-0 my-3 col-md-6 col-lg-12 p-0">
             <div class="wrap position-relative">
               <div
                 class="category position-absolute text-primary font-weight-bolder text-uppercase h5 p-1 m-0 bg-light">
@@ -1126,7 +1135,7 @@
           </div>
 
 
-          <div class="sponsor card rounded-0 my-3 col-md-4 col-lg-12">
+          <div class="sponsor card rounded-0 my-3 col-md-6 col-lg-12 p-0">
             <div class="wrap position-relative">
               <div
                 class="category position-absolute text-primary font-weight-bolder text-uppercase h5 p-1 m-0 bg-light">
@@ -1152,7 +1161,7 @@
           </div>
 
 
-          <div class="sponsor card rounded-0 my-3 col-md-4 col-lg-12">
+          <div class="sponsor card rounded-0 my-3 col-md-6 col-lg-12 p-0">
             <div class="wrap position-relative">
               <div
                 class="category position-absolute text-primary font-weight-bolder text-uppercase h5 p-1 m-0 bg-light">
@@ -1181,7 +1190,7 @@
           </div>
 
 
-          <div class="sponsor card rounded-0 my-3 col-md-4 col-lg-12">
+          <div class="sponsor card rounded-0 my-3 col-md-6 col-lg-12 p-0">
             <div class="wrap position-relative">
               <div
                 class="category position-absolute text-primary font-weight-bolder text-uppercase h5 p-1 m-0 bg-light">
@@ -1206,7 +1215,7 @@
           </div>
 
 
-          <div class="sponsor card rounded-0 my-3 col-md-4 col-lg-12">
+          <div class="sponsor card rounded-0 my-3 col-md-6 col-lg-12 p-0">
             <div class="wrap position-relative">
               <div
                 class="category position-absolute text-primary font-weight-bolder text-uppercase h5 p-1 m-0 bg-light">
@@ -2424,22 +2433,21 @@
 
     </div>
 
-    <div class="subscribe-block d-flex flex-column flex-md-column flex-lg-row mb-md-5 justify-content-between">
+    <div class="subscribe-block d-flex bg-white pb-md-5 flex-column flex-md-column flex-lg-row mb-md-3 justify-content-between">
 
-      <div class="col-lg-8 bg-white my-2 my-lg-0 p-0">
+      <div class="col-lg-7 my-2 my-lg-0 p-0">
   
         <div class="text-danger text-uppercase h6 font-weight-bolder">Subscribe</div>
 
-        <div class="col d-flex align-items-center align-items-md-start p-3 bg-light h-100 my-2 flex-column d-md-flex flex-md-row">
+        <div class="col d-flex align-items-center p-4 bg-light my-2 flex-column d-md-flex flex-md-row h-100">
           
-            <div class="col-md-5 col-12 image-side d-flex justify-content-sm-center justify-content-md-start position-relative">
+            <div class="col-md-4 col-12 image-side d-flex justify-content-sm-center justify-content-md-start position-relative">
               <!-- <div class=""> -->
                 <img class="img-fluid h-100" src="https://d.newsweek.com/en/full/1641530/cover-october-02-2020.jpg?w=170&amp;q=95&amp;f=7dedf2b19f9910e285fdbdff096ed6a3" alt="In-depth Stories You Don't See Elsewhere About Topics You Want to Read!">
               <!-- </div> -->
               <!-- <div class="position-absolute img-overlay"> -->
                 <img class="img-fluid h-100 position-absolute img-overlay" src="https://d.newsweek.com/en/full/1643943/cover-october-09-16-2020.jpg?w=170&amp;q=95&amp;f=f8144d83a028a40fe7ea6a5ed615ded7" alt="In-depth Stories You Don't See Elsewhere About Topics You Want to Read!">
-              <!-- </div> -->
-           
+              <!-- </div> -->           
           </div>
 
           <div class="col-12 col-md-7 pr-md-0 mt-md-0 text-center text-md-left pl-lg-4 position-relative subscribe-text px-0 px-md-1 mt-n5 mt-sm-n4">
@@ -2457,7 +2465,7 @@
       </div>
 
 
-      <div class="col-12 col-lg-4 mt-lg-0">
+      <div class="col-12 col-lg-5 mt-lg-0 mb-3 mb-md-0">
         <div class="text-danger text-uppercase h6 font-weight-bolder p-0">NEWSLETTER</div>
         <div class="card rounded-0 d-flex flex-md-row flex-lg-wrap align-items-stretch h-100">
           <div class="col-12 col-md-6 p-0">
@@ -2466,9 +2474,9 @@
               alt="The Starting 5">
           </div>
 
-          <div class="col-12 col-md-6 card-block d-md-flex d-flex flex-column align-items-center p-3 py-1">
-            <h3 class="card-title h5 font-weight-bolder h6">The Starting 5</h3>
-            <p class="card-text h6">
+          <div class="col-12 col-md-6 card-block d-flex flex-column align-items-center justify-content-center p-38">
+            <h3 class="card-title h5 font-weight-bolder">The Starting 5</h3>
+            <p class="card-text text-center text-md-left h6">
               See why nearly a quarter of a million subscribers begin their
               day with the Starting 5.
             </p>
