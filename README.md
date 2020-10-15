@@ -21,7 +21,7 @@ The project has involved application of bootstrap classes to html element to ach
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/Lameck1/Using-Bootstrap/feature-newsweek-home/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Lameck1/Using-Bootstrap/9f10f7cc4dffdb23612577c81ce12ac36aafd28e/index.html)
 
 ## Getting Started
 
