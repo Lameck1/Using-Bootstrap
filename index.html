@@ -5,6 +5,8 @@
   <!-- Required meta tags -->
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- script for header behavior -->
+  <script src="./assets/js/script.js"></script>
   <!-- News Week Icon -->
   <link rel="icon" type="image/png" sizes="32x32"
     href="https://g.newsweek.com/themes/newsweek/favicons/favicon-32x32.png">
@@ -26,9 +28,9 @@
     <div class="col-lg-12">
       <div class="row d-flex align-items-center justify-content-between bg-header p-2">
 
-        <p class="text-white d-none d-lg-block pl-2">Fri, Oct 09, 2020</p>
+        <p id="date" class="text-white d-none d-lg-block pl-2">Fri, Oct 09, 2020</p>
 
-        <div class="col-4 header-middle py-3">
+        <div class="col-4 header-middle py-3" id="logo">
           <a href="#" class="m-0 p-0">
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
               y="0px" viewBox="0 0 395.6 60" xml:space="preserve">
@@ -51,7 +53,7 @@
         </div>
       </div>
 
-      <nav class="header-bottom row position-relative bg-white px-0 d-none d-lg-block">
+      <nav id="navbar" class="header-bottom row position-relative bg-white px-0 d-none d-lg-block">
         <div class="d-flex border-bottom">
           <ul class="nav pt-2 pl-4">
             <li class="nav-item">
@@ -116,6 +118,7 @@
           </ul>
         </div>
       </nav>
+      
     </div>
   </header>
 
@@ -1517,11 +1520,11 @@
         <span class="h5 m-0 font-weight-bolder font-roboto">IN THE MAGAZINE</span>
       </div>
 
-      <div class="row mt-3 d-flex align-items-end">
-        <div class="col-md-3 card rounded-0 border-0 pb-4">
-          <div class="wrap position-relative">
+      <div class="row mt-3 d-flex align-items-en">
+        <div class="col-md-3 card rounded-0 border-0 mb-4 p-0">
+          <div class="wrap position-relative h-50">
             <a href="#">
-              <img class="card-img-top rounded-0"
+              <img class="card-img-top rounded-0 cover-img"
                 src="https://d.newsweek.com/en/full/1643943/cover-october-09-16-2020.jpg?w=360&amp;h=480&amp;q=90&amp;f=4ca581e7b87260aea3e67e88464a11f4"
                 alt="Cover October 09-16, 2020" title="Cover October 09-16, 2020" />
             </a>
@@ -2433,7 +2436,8 @@
               <!-- </div> -->
            
           </div>
-          <div class="col-12 info d-flex flex-column align-items-md-start  align-items-center mt-3 col-md-6 py-4 ml-lg-5">
+
+          <div class="col-12 col-md-7 pr-md-0 mt-md-0 text-center text-md-left pl-lg-4 position-relative subscribe-text px-0 px-md-1 mt-n5 mt-sm-n4">
             <h5 class=" font-weight-bolder h5 text-center text-md-left">
               In-depth Stories You Don't See Elsewhere About Topics You Want
               to Read!
@@ -2476,7 +2480,7 @@
 
   </main>
 
-  <footer class="page-footer container-fluid col-lg-12 border-top bg-white pt-4 pb-5">
+  <footer class="page-footer container-fluid col-lg-12 border-top bg-white pt-4 pb-5 bg-white">
     <div class=" d-sm-flex align-items-end border-bottom  pb-3 flex-sm-column d-lg-flex flex-lg-row flex-md-row ml-3">
 
       <div class="d-md-flex align-items-end col-md-8 p-0 ml-2  ">
@@ -2522,69 +2526,69 @@
     <div class="footer-links col borde-top">
 
       <div class="footer-links-menu d-flex align-items-md-center py-3">
-        <label class="ml-3 my-0"><strong>Editions:</strong></label>
+        <label class="ml-2 my-0 p-0 text-black-50"><strong>Editions:</strong></label>
         <ul class="menu nav m-0">
           <li class="nav-item">
-            <a class="nav-link text-body py-0" href="#">U.S. Edition</a>
+            <a class="nav-link text-body py-0 px-2 text-black-50" href="#">U.S. Edition</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-body py-0" href="#">日本</a>
+            <a class="nav-link text-body py-0 px-2 text-black-50" href="#">日本</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-body py-0" href="#">Pakistan</a>
+            <a class="nav-link text-body py-0 px-2 text-black-50" href="#">Pakistan</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-body py-0" href="#">Polska</a>
+            <a class="nav-link text-body py-0 px-2 text-black-50" href="#">Polska</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-body border-right-0 py-0" href="#">România</a>
+            <a class="nav-link text-body border-right-0 py-0 px-2 text-black-50" href="#">România</a>
           </li>
         </ul>
       </div>
 
       <div class="footer-links-menu">
         <ul class="menu nav m-0">
-          <li class="nav-item px-0 ml-3">
-            <a class="nav-link text-body   pl-0 py-0" href="#">About Us</a>
+          <li class="nav-item px-0 ml-2">
+            <a class="nav-link text-body py-0 pl-0 pr-2 text-black-50" href="#">About Us</a>
           </li>
           <li class="nav-item px-0">
-            <a class="nav-link text-body   py-0" href="#">Corrections</a>
+            <a class="nav-link text-body py-0 px-2 text-black-50" href="#">Corrections</a>
           </li>
           <li class="nav-item px-0">
-            <a class="nav-link text-body   py-0" href="#">Contact Us</a>
+            <a class="nav-link text-body py-0 px-2 text-black-50" href="#">Contact Us</a>
           </li>
           <li class="nav-item px-0">
-            <a class="nav-link text-body   py-0" href="#">Editorial Guidelines</a>
+            <a class="nav-link text-body py-0 px-2 text-black-50" href="#">Editorial Guidelines</a>
           </li>
           <li class="nav-item px-0">
-            <a class="nav-link text-body   py-0" href="#">Advertise</a>
+            <a class="nav-link text-body py-0 px-2 text-black-50" href="#">Advertise</a>
           </li>
           <li class="nav-item px-0">
-            <a class="nav-link text-body   py-0" href="#">Copyright</a>
+            <a class="nav-link text-body py-0 px-2 text-black-50" href="#">Copyright</a>
           </li>
           <li class="nav-item px-0">
-            <a class="nav-link text-body   py-0" href="#">Terms &amp; Conditions</a>
+            <a class="nav-link text-body py-0 px-2 text-black-50" href="#">Terms &amp; Conditions</a>
           </li>
           <li class="nav-item px-0">
-            <a class="nav-link text-body   py-0" href="#">Privacy Policy</a>
+            <a class="nav-link text-body py-0 px-2 text-black-50" href="#">Privacy Policy</a>
           </li>
           <li class="nav-item px-0">
-            <a class="nav-link text-body   py-0" href="#">Cookie Policy</a>
+            <a class="nav-link text-body py-0 px-2 text-black-50" href="#">Cookie Policy</a>
           </li>
           <li class="nav-item px-0">
-            <a class="nav-link text-body   py-0" href="#">Terms of Sale</a>
+            <a class="nav-link text-body py-0 px-2 text-black-50" href="#">Terms of Sale</a>
           </li>
           <li class="nav-item px-0">
-            <a class="nav-link text-body   py-0" href="#">Archive</a>
+            <a class="nav-link text-body py-0 px-2 text-black-50" href="#">Archive</a>
           </li>
           <li class="nav-item px-0">
-            <a class="nav-link text-body border-right-0  py-0" href="#">Announcements</a>
+            <a class="nav-link text-body border-right-0  py-0 px-2 text-black-50" href="#">Announcements</a>
           </li>
           <li class="d-none">
-            <a class="nav-link text-body   py-0" href="#">Do Not Sell My Personal Information</a>
+            <a class="nav-link text-body py-0 px-2" href="#">Do Not Sell My Personal Information</a>
           </li>
           <li class="d-none">
-            <a class="nav-link text-body py-0" href="#">GDPR Privacy Settings</a>
+            <a class="nav-link text-body py-0 px-2" href="#">GDPR Privacy Settings</a>
           </li>
         </ul>
       </div>
